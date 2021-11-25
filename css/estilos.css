@@ -61,14 +61,3 @@ p label>* {
   width: 100%;
 }
 
-.form {
-  width:640px;
-  height:440px;
-  background:white;
-  border-radius:15px;
-  /*box-shadow:0 0 40px -10px #000;*/
-  margin:calc(50vh - 220px) auto;
-  padding:20px 30px;
-  max-width:calc(100vw - 40px);
-  
-}
