@@ -1,0 +1,107 @@
+@import "mi-nav.css";
+@import "mi-footer.css";
+@import "listas.css";
+
+:root {
+  font-family: sans-serif;
+  --col-active: #4646462c;
+  --color-header: white;
+  --colorMiNav: white;
+}
+
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0.5rem;
+  /*background-color: white;*/
+  /*background-color:rgba(164,165,248, 0.4);*/
+  background-image: linear-gradient(225deg, #b7dabd 0, 
+    #b2dbc1 5.56%, #aedcc6 11.11%, #a9dccb 16.67%, 
+    #a6dcd0 22.22%, #a3dcd5 27.78%, #a1dcda 33.33%, 
+    #9fdcdf 38.89%, #9fdce4 44.44%, #a0dbe8 50%, 
+    #a2daec 55.56%, #a5d9ef 61.11%, #a9d8f2 66.67%, 
+    #add7f4 72.22%, #b3d5f6 77.78%, #b8d4f6 83.33%, 
+    #bfd2f7 88.89%, #c5d1f6 94.44%, #cccff5 100%);
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:
+    var(--color-header);
+}
+
+.herramientas {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  align-content: flex-end;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
+header input {
+  flex-grow: 1;
+}
+
+h1 {
+  margin: 0.5rem 0;
+}
+
+figure img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+legend,
+p label {
+  display: block;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+p label>* {
+  display: block;
+  font-weight: normal;
+  font-size: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.form {
+  width:640px;
+  height:440px;
+  background:white;
+  border-radius:15px;
+  /*box-shadow:0 0 40px -10px #000;*/
+  margin:calc(50vh - 220px) auto;
+  padding:20px 30px;
+  max-width:calc(100vw - 40px);
+  
+}
+
+.form1 {
+  width:640px;
+  height:100px;
+  background:white;
+  border-radius:15px;
+  /*box-shadow:0 0 40px -10px #000;*/
+  margin:calc(50vh - 220px) auto;
+  padding:20px 30px;
+  max-width:calc(100vw - 40px);
+  
+}
+
+button{
+  float:right;
+  padding:6px 10px;
+  margin:8px 0 0;
+  sans-serif;
+  border-radius:12px;
+  background:0;
+  background-color: lightblue;
+  cursor:pointer;
+  transition:all .3s}
