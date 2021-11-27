@@ -45,7 +45,7 @@ h1 {
 
 figure img {
   max-width: 100%;
-  border-radius: 50%;
+  border-radius: 90%;
 }
 
 legend,
@@ -76,10 +76,11 @@ button{
   cursor:pointer;
   transition:all .3s}
 
-mi-nav{
-background-color: lightblue;
-width: auto;
-}
+  mi-nav{
+  background-color: lightblue;
+  width: auto;
+  color: black;
+  }
 
   mi-nav a{
     text-decoration:none;
