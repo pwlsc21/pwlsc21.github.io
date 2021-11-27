@@ -83,7 +83,7 @@ width: auto;
 
   mi-nav a{
     text-decoration:none;
-    color:whithe;
+    color:black;
     font-size:14px;
     } 
   mi-nav li{
@@ -92,8 +92,8 @@ width: auto;
     height: 20px;
     padding:5px 10px;
     /*background-color:lightpink;
-    border:1px solid black;
-    text-align:center;*/
+    border:1px solid black;*/
+    text-align:center;
     color:#fff;
     }
 
