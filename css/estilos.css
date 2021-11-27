@@ -77,5 +77,31 @@ button{
   transition:all .3s
 }
 
+mi-nav{
+background-color: lightblue;
+width: auto;
+}
 
+  mi-nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+  mi-nav li{
+    display:inline-block;
+    width:60px;
+    height: 20px;
+    padding:5px 10px;
+    /*background-color:lightpink;
+    border:1px solid black;
+    text-align:center;*/
+    color:#fff;
+    }
+
+
+
+  mi-nav li:hover{
+    background-color:lightgray;
+    color:#000;
+    }
 
