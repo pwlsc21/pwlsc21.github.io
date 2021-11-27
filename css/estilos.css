@@ -77,7 +77,7 @@ button{
   transition:all .3s
 }
 
-nav a{
+.menu > nav a{
     text-decoration:none;
     color:inherit;
     font-size:14px;
