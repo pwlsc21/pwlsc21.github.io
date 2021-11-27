@@ -82,12 +82,12 @@ button{
   color: black;
   }
 
-  mi-nav a{
+    mi-nav a{
     text-decoration:none;
     color:black;
     font-size:14px;
     } 
-  mi-nav li{
+    mi-nav li{
     display:inline-block;
     width:60px;
     height: 20px;
@@ -100,13 +100,14 @@ button{
 
 
 
-  mi-nav li:hover{
+    mi-nav li:hover{
     background-color:lightgray;
     color:#000;
     }
 
 
     mi-footer{
-background-color: lightblue;
-width: auto;
+    background-color: lightblue;
+    width: auto;
+    height:40px;
     }
